@@ -1,0 +1,49 @@
+table,th,td{
+    border:2px solid  greenyellow;
+}
+table{
+    width:100%;
+  height:300px;
+}
+/*Row size(All)*/
+tr{
+    height:50px;
+}
+/*column width(All)*/
+th{
+    width: 120px;
+}
+td{
+    width: 120px;
+}
+/*Specific Column Width*/
+#manage{
+    width: 30%;
+}
+/*Specific Row Height*/
+#Last-row{
+    height: 80px;
+}
+table{
+    background-color: brown;
+}
+/*table background image*/
+table{
+    background-image: url("https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-mediumSquareAt3X.jpg");
+background-position:center}
+
+/*All Row Background*/
+/* tr{
+    background-color: purple;
+} */
+/*All Cells Background*/
+/* th,td{
+    background-color: whitesmoke;
+} */
+table{
+    border-radius: 20px;
+}
+body{
+    color:aliceblue;
+    font-size: 50px;
+}
