@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="table.css">
 </head>
+
 <body>
     <!-- <table border=1>
         <tr>
@@ -58,24 +60,115 @@
                     <td>150kg</td>
                 </tr>
             </table> -->
-        <table border=1>
-            <caption>Fruits Detail</caption>
-            <tr>
-                <th class="manage">S.N</th>
-                <td>1.</td>
-                <td>2.</td>
-            </tr>
-            <tr>
-                <th>Fruits Name</th>
-                <td>Apple</td>
-                <td>Coconut</td>
-            </tr
-            <tr id="last-row">
-                    <th>Weight</th>
-                    <td>50kg</td>
-                    <td>150kg</td>
+    <table border=1>
+        <caption>Fruits Detail</caption>
+        <tr>
+            <th class="manage">S.N</th>
+            <td>1.</td>
+            <td>2.</td>
+        </tr>
+        <tr>
+            <th>Fruits Name</th>
+            <td>Apple</td>
+            <td>Coconut</td>
+        </tr <tr id="last-row">
+        <th>Weight</th>
+        <td>50kg</td>
+        <td>150kg</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Roll</th>
+            <th colspan="2"> FullName</th>
+            <th> Age</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Ram</td>
+            <td>Karki</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Sita</td>
+            <td>Karki</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Roll</th>
+            <td>1.</td>
+            <td>2.</td>
 
+
+        </tr>
+        <tr>
+            <th rowspan="2">FullName</th>
+            <td>Ram</td>
+            <td>Sita</td>
+
+        </tr>
+        <tr>
+            <td>Karki</td>
+            <td>Karki</td>
+        </tr>
+        <tr>
+            <th> Age</th>
+
+            <td>28</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: green;">
+            <col span="1" style="background-color: red;">
+            <col span="1" style="background-color: purple;">
+            <col span="1" style="background-color: blue;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="4">Student Details</th>
             </tr>
-        </table>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4"> Note: This is test data.</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th>Roll</th>
+                <th colspan="2">FullName</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Ram</td>
+                <td>Karki</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tr>
+        <td>S.N</td>
+        <td>Fruits</td>
+        <td>Weight</td>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>Apple</th>
+            <th>20kg</th>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <th>Orange</th>
+            <th>40kg</th>
+        </tr>
+    </table>
 </body>
+
 </html>
