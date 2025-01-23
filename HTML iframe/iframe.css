@@ -1,0 +1,44 @@
+/* #main{
+    display: flex;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+*/
+.top {
+    display: flex;
+    border: 2px solid black;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.top a{
+    text-decoration: none;
+    padding: 8.5px;
+    border: 2px 1px 1px 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+}
+
+.top a:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101%;
+}
+
+.none {
+    padding-bottom: 0px;
+    height: 1px;
+    border-bottom: none;
+}

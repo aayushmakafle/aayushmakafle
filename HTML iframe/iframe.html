@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <link rel="stylesheet" href="./iframe.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="menu">
+            <a href="../home.html" target="myframe">Home</a>
+            <a href="../profile.html" target="myframe">Profile</a>
+            <a href="../setting.html" target="myframe">Setting</a>
+            <a href="../feeds.html" target="myframe">Feeds</a>
+        </div>
+        <div id="frame">
+            <iframe src="../home.html" name="myframe">
+                <iframe src="../profile.html" name="myframe">
+                    <iframe src="../setting.html" name="myframe">
+                        <iframe src="../feeds.html" name="myframe"></iframe>
+                    </iframe>
+                </iframe>
+                
+            
+            </iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
